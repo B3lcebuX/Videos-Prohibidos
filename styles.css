@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 15px;
+}
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 100vh; /* Hacer que el cuerpo ocupe toda la altura de la ventana */
+    margin: 0; /* Eliminar márgenes predeterminados */
+}
+
+form {
+    margin-bottom: 20px;
+    padding: 20px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde alrededor del formulario */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+    background-color: #fff; /* Fondo blanco */
+}
+
+input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%; /* Asegurar que el ancho sea 100% del contenedor */
+}
+
+button {
+    padding: 10px 15px;
+    width: 100%; /* Asegurar que el botón sea 100% del contenedor */
+}
